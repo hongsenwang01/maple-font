@@ -5,10 +5,10 @@
   "pool_size": 4,
   "ligature": true,
   "feature_freeze": {
-    "cv01": "ignore",
-    "cv02": "ignore",
-    "cv03": "ignore",
-    "cv04": "ignore",
+    "cv01": "off",
+    "cv02": "off",
+    "cv03": "on",
+    "cv04": "off",
     "cv31": "ignore",
     "cv32": "ignore",
     "cv33": "ignore",
@@ -20,20 +20,20 @@
     "cv97": "ignore",
     "cv98": "ignore",
     "cv99": "ignore",
-    "ss01": "ignore",
-    "ss02": "ignore",
-    "ss03": "ignore",
-    "ss04": "ignore",
-    "ss05": "ignore",
+    "ss01": "on",
+    "ss02": "on",
+    "ss03": "on",
+    "ss04": "on",
+    "ss05": "off",
     "ss06": "ignore",
-    "ss07": "ignore",
+    "ss07": "off",
     "ss08": "ignore",
-    "zero": "ignore"
+    "zero": "on"
   },
   "nerd_font": {
     "enable": true,
     "version": "3.3.0",
-    "mono": false,
+    "mono": true,
     "use_font_patcher": false,
     "glyphs": [
       "--complete"
@@ -41,12 +41,12 @@
     "extra_args": []
   },
   "cn": {
-    "enable": false,
+    "enable": true,
     "with_nerd_font": true,
     "fix_meta_table": true,
     "clean_cache": false,
     "narrow": false,
-    "use_hinted": false,
+    "use_hinted": true,
     "use_static_base_font": true
   }
 }
